@@ -35,7 +35,7 @@
 | [showtools](###showtools-工具行)                           | 工具行                       | 请查看配置说明                                       |
 | [dont_scan_tools](###dont_scan_tools-排除的工具)           | 排除的工具                   |-                                                           |
 | [windows_recovery_files](###windows_recovery_files-Windows救援系统引导) | Windows救援系统引导          | 请查看配置说明 |
-| [scan_driver_dirs](###scan_driver_dirs-在其中搜索 EFI 驱动程序的目录) | 在其中搜索 EFI 驱动程序的目录 |-|
+| [scan_driver_dirs](###scan_driver_dirs-在其中搜索EFI驱动程序的目录) | 在其中搜索EFI驱动程序的目录 |-|
 | [scanfor](###scanfor-要搜索的引导加载程序类型以及显示顺序) | 要搜索的引导加载程序类型以及显示顺序 | 请查看配置说明 |
 | [uefi_deep_legacy_scan](###uefi_deep_legacy_scan-深度扫描) | 深度扫描 |-|
 | [scan_delay](###scan_delay-扫描延迟) | 扫描延迟 | 0 |
@@ -605,7 +605,7 @@
 
 
 
-### scan_driver_dirs-在其中搜索 EFI 驱动程序的目录
+### scan_driver_dirs-在其中搜索EFI驱动程序的目录
 
 - 这些驱动程序可以提供文件系统支持，允许访问插件控制器上的硬盘等。
 
