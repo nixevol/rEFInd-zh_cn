@@ -19,7 +19,7 @@
 | [screensaver](###screensaver-屏幕保护超时)                 | 屏幕保护程序超时             | 0                                                            |
 | [icons_dir](###icons_dir-图标目录)                        | 图标目录                     | icons                                                        |
 | [icon_size](###icon_size-图标大小)                         | 图标大小                     |-                                                           |
-| [selection_Image](###selectionImage-选中时背景图像)       | 选中时背景图像               |-                                                           |
+| [selection_Image](###selection_Image-选中时背景图像)       | 选中时背景图像               |-                                                           |
 | [hideui](###hideui-隐藏界面元素)                           | hideui                       |-                                                           |
 | [banner](###banner-背景图)                                 | 背景图                       |-                                                           |
 | [banner_scale](###banner_scale-背景图显示方式)             | 背景图显示方式               | noscale                                                      |
