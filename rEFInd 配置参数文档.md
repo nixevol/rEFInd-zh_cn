@@ -13,7 +13,7 @@
 
 | 配置代码|中文注释| 默认值|
 |-|-|-|
-| [timeout ](### timeout - 主菜单屏幕超时秒数)                  | 主菜单屏幕超时秒数           | -                                                            |
+|[timeout](###timeout - 主菜单屏幕超时秒数)                  | 主菜单屏幕超时秒数           | -                                                            |
 | [shutdown_after_timeout](###shutdown_after_timeout - 超时后关机) | 超时后关机                   | true                                                         |
 | [log_level](###log_level - 日志记录级别)                     | 日志记录级别                 | 0                                                            |
 | [screensaver](###screensaver - 屏幕保护超时)                 | 屏幕保护程序超时             | 0                                                            |
