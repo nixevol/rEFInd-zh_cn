@@ -1388,5 +1388,8 @@
 
 ### 捐赠
 
+![WeChat](https://user-images.githubusercontent.com/35430449/177863321-ba18bdff-c536-496d-b54c-eedbe817aefe.jpg)
 
+
+![ALiPay](https://user-images.githubusercontent.com/35430449/177863341-d5f64179-fd0e-486b-b72a-e61e2f64a90f.jpg)
 
