@@ -74,7 +74,7 @@
        ```refind conf
        timeout 30
        ```
-> [Top](##配置代码列表)
+> [Top](#配置代码列表)
 
 
 
@@ -90,7 +90,7 @@
      ```refind conf
      shutdown_after_timeout false
      ```
-> [Top](##配置代码列表)
+> [Top](#配置代码列表)
 
 
 
@@ -109,7 +109,7 @@
      ```refind conf
      log_level 1
      ```
-> [Top](##配置代码列表)
+> [Top](#配置代码列表)
 
 
 ### screensaver-屏幕保护超时 ###
@@ -124,7 +124,7 @@
 	```refind conf
 	screensaver 300
 	```
-> [Top](##配置代码列表)
+> [Top](#配置代码列表)
 
 
 
@@ -154,7 +154,7 @@
       ```refind conf
       use_nvram false
       ```
-> [Top](##配置代码列表)
+> [Top](#配置代码列表)
 
 
 
@@ -181,7 +181,7 @@
     icons_dir myicons
     icons_dir icons/snowy
     ```
-> [Top](##配置代码列表)
+> [Top](#配置代码列表)
 
 
 
@@ -204,7 +204,7 @@
     big_icon_size 256
     ```
 
-> [Top](##配置代码列表)
+> [Top](#配置代码列表)
 
 
 
@@ -231,7 +231,7 @@
       selection_small selection-small.bmp
       ```
 
-> [Top](##配置代码列表)
+> [Top](#配置代码列表)
 
 
 
@@ -283,7 +283,7 @@
     ```refind conf
     banner icons/snowy/banner-snowy.png
     ```
-> [Top](##配置代码列表)
+> [Top](#配置代码列表)
 
 
 
@@ -305,7 +305,7 @@
     ```refind conf
     banner_scale fillscreen
     ```
-> [Top](##配置代码列表)
+> [Top](#配置代码列表)
 
 
 
@@ -327,7 +327,7 @@
     ```refind conf
     font myfont.png
     ```
-> [Top](##配置代码列表)
+> [Top](#配置代码列表)
 
 
 
@@ -348,7 +348,7 @@
     ```refind conf
     textonly 0
     ```
-> [Top](##配置代码列表)
+> [Top](#配置代码列表)
 
 
 
@@ -375,7 +375,7 @@
        ```refind conf
        textmode 1024
        ```
-> [Top](##配置代码列表)
+> [Top](#配置代码列表)
 
 
 
@@ -411,7 +411,7 @@
      resolution max
      ```
 
-> [Top](##配置代码列表)
+> [Top](#配置代码列表)
 
 
 
@@ -433,7 +433,7 @@
     enable_touch
     ```
 
-> [Top](##配置代码列表)
+> [Top](#配置代码列表)
 
 
 
@@ -453,7 +453,7 @@
     enable_mouse
     ```
 
-> [Top](##配置代码列表)
+> [Top](#配置代码列表)
 
 
 
@@ -469,7 +469,7 @@
     mouse_size 16
     ```
 
-> [Top](##配置代码列表)
+> [Top](#配置代码列表)
 
 
 
@@ -489,7 +489,7 @@
     mouse_speed 4
     ```
 
-> [Top](##配置代码列表)
+> [Top](#配置代码列表)
 
 
 
@@ -521,7 +521,7 @@
     use_graphics_for osx,linux
     ```
 
-> [Top](##配置代码列表)
+> [Top](#配置代码列表)
 
 
 
@@ -561,7 +561,7 @@
     showtools shell, bootorder, gdisk, memtest, mok_tool, apple_recovery, windows_recovery
     ```
 
-> [Top](##配置代码列表)
+> [Top](#配置代码列表)
 
 
 
@@ -584,7 +584,7 @@
     dont_scan_tools ESP2:/EFI/ubuntu/mmx64.efi,gptsync_x64.efi
     ```
 
-> [Top](##配置代码列表)
+> [Top](#配置代码列表)
 
 
 
@@ -602,7 +602,7 @@
     windows_recovery_files LRS_ESP:/EFI/Microsoft/Boot/LrsBootmgr.efi
     ```
 
-> [Top](##配置代码列表)
+> [Top](#配置代码列表)
 
 
 
@@ -626,7 +626,7 @@
     scan_driver_dirs EFI/tools/drivers,drivers
     ```
 
-> [Top](##配置代码列表)
+> [Top](#配置代码列表)
 
 
 
@@ -660,7 +660,7 @@
     scanfor internal,external,optical,manual,firmware
     ```
 
-> [Top](##配置代码列表)
+> [Top](#配置代码列表)
 
 
 
@@ -684,7 +684,7 @@
     uefi_deep_legacy_scan true
     ```
     
-> [Top](##配置代码列表)
+> [Top](#配置代码列表)
 
 
 
@@ -702,7 +702,7 @@
     scan_delay 5
     ```
     
-> [Top](##配置代码列表)
+> [Top](#配置代码列表)
 
 
 
@@ -755,7 +755,7 @@
     dont_scan_volumes "Recovery HD"
     ```
 
-> [Top](##配置代码列表)
+> [Top](#配置代码列表)
 
 
 
@@ -785,7 +785,7 @@
     dont_scan_dirs ESP:/EFI/boot,EFI/Dell,EFI/memtest86
     ```
 
-> [Top](##配置代码列表)
+> [Top](#配置代码列表)
 
 
 
@@ -820,7 +820,7 @@
     dont_scan_files shim.efi,MokManager.efi
     ```
 
-> [Top](##配置代码列表)
+> [Top](#配置代码列表)
 
 
 
@@ -844,7 +844,7 @@
     ```
 
 
-> [Top](##配置代码列表)
+> [Top](#配置代码列表)
 
 
 
@@ -872,7 +872,7 @@
     scan_all_linux_kernels false
     ```
 
-> [Top](##配置代码列表)
+> [Top](#配置代码列表)
 
 
 
@@ -892,7 +892,7 @@
     fold_linux_kernels false
     ```
 
-> [Top](##配置代码列表)
+> [Top](#配置代码列表)
 
 
 
@@ -922,7 +922,7 @@
     extra_kernel_version_strings linux-lts,linux
     ```
 
-> [Top](##配置代码列表)
+> [Top](#配置代码列表)
 
 
 
@@ -942,7 +942,7 @@
     write_systemd_vars true
     ```
 
-> [Top](##配置代码列表)
+> [Top](#配置代码列表)
 
 
 
@@ -1008,7 +1008,7 @@
     default_selection "Maintenance,macOS" 1:00 2:30
     ```
 
-> [Top](##配置代码列表)
+> [Top](#配置代码列表)
 
 
 
@@ -1031,7 +1031,7 @@
     enable_and_lock_vmx false
     ```
 
-> [Top](##配置代码列表)
+> [Top](#配置代码列表)
 
 
 
@@ -1061,7 +1061,7 @@
     spoof_osx_version 10.9
     ```
 
-> [Top](##配置代码列表)
+> [Top](#配置代码列表)
 
 
 
@@ -1101,7 +1101,7 @@
     csr_values 10,877
     ```
 
-> [Top](##配置代码列表)
+> [Top](#配置代码列表)
 
 
 
@@ -1121,7 +1121,7 @@
     include manual.conf
     ```
 
-> [Top](##配置代码列表)
+> [Top](#配置代码列表)
 
 
 
@@ -1205,7 +1205,7 @@
 - 在指定文件名的参数周围使用引号是允许的，但是您必须使用反斜杠而不是斜杠，
   除非您必须将正斜杠传递给加载程序，例如将 root= 选项传递给 Linux 内核。
 
-> [Top](##配置代码列表)
+> [Top](#配置代码列表)
 
 
 
@@ -1238,7 +1238,7 @@
   }
   ```
 
-> [Top](##配置代码列表)
+> [Top](#配置代码列表)
 
 
 
@@ -1268,7 +1268,7 @@
   }
   ```
 
-> [Top](##配置代码列表)
+> [Top](#配置代码列表)
 
 
 
@@ -1285,7 +1285,7 @@
   ```
 
 
-> [Top](##配置代码列表)
+> [Top](#配置代码列表)
 
 
 
@@ -1298,7 +1298,7 @@
   }
   ```
 
-> [Top](##配置代码列表)
+> [Top](#配置代码列表)
 
 
 
@@ -1315,7 +1315,7 @@
   ```
 
 
-> [Top](##配置代码列表)
+> [Top](#配置代码列表)
 
 
 
@@ -1335,7 +1335,7 @@
   }
   ```
 
-> [Top](##配置代码列表)
+> [Top](#配置代码列表)
 
 
 
@@ -1355,7 +1355,7 @@
   }
   ```
 
-> [Top](##配置代码列表)
+> [Top](#配置代码列表)
 
 
 
@@ -1382,7 +1382,7 @@
   ```
 
 
-> [Top](##配置代码列表)
+> [Top](#配置代码列表)
 
 
 
