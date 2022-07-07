@@ -14,47 +14,48 @@
 | 配置代码|中文注释| 默认值|
 |-|-|-|
 | [timeout ](#timeout-主菜单屏幕超时秒数)                  | 主菜单屏幕超时秒数           | -                                                            |
-| [shutdown_after_timeout](###shutdown_after_timeout-超时后关机) | 超时后关机                   | true                                                         |
-| [log_level](###log_level-日志记录级别)                     | 日志记录级别                 | 0                                                            |
-| [screensaver](###screensaver-屏幕保护超时)                 | 屏幕保护程序超时             | 0                                                            |
-| [icons_dir](###icons_dir-图标目录)                        | 图标目录                     | icons                                                        |
-| [icon_size](###icon_size-图标大小)                         | 图标大小                     |-                                                           |
-| [selection_Image](###selection_Image-选中时背景图像)       | 选中时背景图像               |-                                                           |
-| [hideui](###hideui-隐藏界面元素)                           | hideui                       |-                                                           |
-| [banner](###banner-背景图)                                 | 背景图                       |-                                                           |
-| [banner_scale](###banner_scale-背景图显示方式)             | 背景图显示方式               | noscale                                                      |
-| [font](###font-文本字体)                                   | 文本字体                     | rEFInd内置字体                                               |
-| [textonly](###textonly-文本模式)                           | 文本模式                     | 0                                                            |
-| [textmode](###textmode-EFI文本模式)                        | EFI文本模式                  | 1024                                                         |
-| [resolution](###resolution-屏幕分辨率)                     | 屏幕分辨率                   | 0 0                                                          |
-| [enable_touch](###enable_touch-触摸屏支持)                 | 触摸屏支持                   |-                                                           |
-| [enable_mouse](###enable_mouse-鼠标支持)                   | 鼠标支持                     |-                                                           |
-| [mouse_size](###mouse_size-鼠标指针大小)                   | 鼠标指针大小                 | 16                                                           |
-| [mouse_speed](###mouse_speed-鼠标跟踪速度)                 | 鼠标跟踪速度                 | 4                                                            |
-| [use_graphics_for](###use_graphics_for-以图形模式启动指定的操作系统) | 以图形模式启动指定的操作系统 | osx                                                          |
-| [showtools](###showtools-工具行)                           | 工具行                       | 请查看配置说明                                       |
-| [dont_scan_tools](###dont_scan_tools-排除的工具)           | 排除的工具                   |-                                                           |
-| [windows_recovery_files](###windows_recovery_files-Windows救援系统引导) | Windows救援系统引导          | 请查看配置说明 |
-| [scan_driver_dirs](###scan_driver_dirs-在其中搜索EFI驱动程序的目录) | 在其中搜索EFI驱动程序的目录 |-|
-| [scanfor](###scanfor-要搜索的引导加载程序类型以及显示顺序) | 要搜索的引导加载程序类型以及显示顺序 | 请查看配置说明 |
-| [uefi_deep_legacy_scan](###uefi_deep_legacy_scan-深度扫描) | 深度扫描 |-|
-| [scan_delay](###scan_delay-扫描延迟) | 扫描延迟 | 0 |
-| [also_scan_dirs](###also_scan_dirs-总是扫描目录) | 总是扫描目录 | 请查看配置说明 |
-| [dont_scan_volumes](###dont_scan_volumes-忽略扫描的分区) | 忽略扫描的分区 | LRS_ESP |
-| [dont_scan_dirs](###dont_scan_dirs-不扫描引导的目录) | 不扫描引导的目录 |-|
-| [dont_scan_files](###dont_scan_files-不扫描的引导文件) | 不扫描的引导文件 | 请查看配置说明 |
-| [dont_scan_firmware](###dont_scan_firmware-不扫描的固件) | 不扫描的固件 |-|
-| [scan_all_linux_kernels](###scan_all_linux_kernels-扫描缺少文件扩展名的Linux内核) | 扫描缺少文件扩展名的Linux内核 | true |
-| [fold_linux_kernels](###fold_linux_kernels-Linux内核合并) | Linux内核合并 | true |
-| [extra_kernel_version_strings](###extra_kernel_version_strings-内核列表编号化) | 内核列表编号化 |-|
-| [write_systemd_vars](###write_systemd_vars-写入系统变量) | 写入系统变量 | false |
-| [max_tags](###max_tags-最大标签个数) | 最大标签个数 | 0 |
-| [default_selection](###default_selection-默认菜单选择) | 默认菜单选择 | 请查看配置说明 |
-| [enable_and_lock_vmx](###enable_and_lock_vmx-启用VMX位) | 启用VMX位 | false |
-| [spoof_osx_version](###spoof_osx_version-MacOS启动欺骗) | MacOS启动欺骗 |-|
-| [csr_values](###csr_values-设置苹果csr值) | 设置苹果csr值 |-|
-| [include](###include-引入配置文件) | 引入配置文件 |-|
-| [menuentry](###menuentry-手动配置节点) | 手动配置节点 | 请查看[示例](###下面是几个示例引导节点配置) |
+| [shutdown_after_timeout](#shutdown_after_timeout-超时后关机) | 超时后关机                   | true                                                         |
+| [log_level](#log_level-日志记录级别)                     | 日志记录级别                 | 0                                                            |
+| [screensaver](#screensaver-屏幕保护超时)                 | 屏幕保护程序超时             | 0                                                            |
+| [icons_dir](#icons_dir-图标目录)                        | 图标目录                     | icons                                                        |
+| [icon_size](#icon_size-图标大小)                         | 图标大小                     |-                                                           |
+| [selection_Image](#selection_Image-选中时背景图像)       | 选中时背景图像               |-                                                           |
+| [hideui](#hideui-隐藏界面元素)                           | hideui                       |-                                                           |
+| [banner](#banner-背景图)                                 | 背景图                       |-                                                           |
+| [banner_scale](#banner_scale-背景图显示方式)             | 背景图显示方式               | noscale                                                      |
+| [font](#font-文本字体)                                   | 文本字体                     | rEFInd内置字体                                               |
+| [textonly](#textonly-文本模式)                           | 文本模式                     | 0                                                            |
+| [textmode](#textmode-EFI文本模式)                        | EFI文本模式                  | 1024                                                         |
+| [resolution](#resolution-屏幕分辨率)                     | 屏幕分辨率                   | 0 0                                                          |
+| [enable_touch](#enable_touch-触摸屏支持)                 | 触摸屏支持                   |-                                                           |
+| [enable_mouse](#enable_mouse-鼠标支持)                   | 鼠标支持                     |-                                                           |
+| [mouse_size](#mouse_size-鼠标指针大小)                   | 鼠标指针大小                 | 16                                                           |
+| [mouse_speed](#mouse_speed-鼠标跟踪速度)                 | 鼠标跟踪速度                 | 4                                                            |
+| [use_graphics_for](#use_graphics_for-以图形模式启动指定的操作系统) | 以图形模式启动指定的操作系统 | osx                                                          |
+| [showtools](#showtools-工具行)                           | 工具行                       | 请查看配置说明                                       |
+| [dont_scan_tools](#dont_scan_tools-排除的工具)           | 排除的工具                   |-                                                           |
+| [windows_recovery_files](#windows_recovery_files-Windows救援系统引导) | Windows救援系统引导          | 请查看配置说明 |
+| [scan_driver_dirs](#scan_driver_dirs-在其中搜索EFI驱动程序的目录) | 在其中搜索EFI驱动程序的目录 |-|
+| [scanfor](#scanfor-要搜索的引导加载程序类型以及显示顺序) | 要搜索的引导加载程序类型以及显示顺序 | 请查看配置说明 |
+| [uefi_deep_legacy_scan](#uefi_deep_legacy_scan-深度扫描) | 深度扫描 |-|
+| [scan_delay](#scan_delay-扫描延迟) | 扫描延迟 | 0 |
+| [also_scan_dirs](#also_scan_dirs-总是扫描目录) | 总是扫描目录 | 请查看配置说明 |
+| [dont_scan_volumes](#dont_scan_volumes-忽略扫描的分区) | 忽略扫描的分区 | LRS_ESP |
+| [dont_scan_dirs](#dont_scan_dirs-不扫描引导的目录) | 不扫描引导的目录 |-|
+| [dont_scan_files](#dont_scan_files-不扫描的引导文件) | 不扫描的引导文件 | 请查看配置说明 |
+| [dont_scan_firmware](#dont_scan_firmware-不扫描的固件) | 不扫描的固件 |-|
+| [scan_all_linux_kernels](#scan_all_linux_kernels-扫描缺少文件扩展名的Linux内核) | 扫描缺少文件扩展名的Linux内核 | true |
+| [fold_linux_kernels](#fold_linux_kernels-Linux内核合并) | Linux内核合并 | true |
+| [extra_kernel_version_strings](#extra_kernel_version_strings-内核列表编号化) | 内核列表编号化 |-|
+| [write_systemd_vars](#write_systemd_vars-写入系统变量) | 写入系统变量 | false |
+| [max_tags](#max_tags-最大标签个数) | 最大标签个数 | 0 |
+| [default_selection](#default_selection-默认菜单选择) | 默认菜单选择 | 请查看配置说明 |
+| [enable_and_lock_vmx](#enable_and_lock_vmx-启用VMX位) | 启用VMX位 | false |
+| [spoof_osx_version](#spoof_osx_version-MacOS启动欺骗) | MacOS启动欺骗 |-|
+| [csr_values](#csr_values-设置苹果csr值) | 设置苹果csr值 |-|
+| [include](#include-引入配置文件) | 引入配置文件 |-|
+| [menuentry](#menuentry-手动配置节点) | 手动配置节点 | 请查看[示例](#下面是几个示例引导节点配置) |
+
 
 
 
